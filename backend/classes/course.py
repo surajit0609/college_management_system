@@ -1,10 +1,10 @@
-from abstraction.student_interface import StudentInterface
+from abstraction.student_interface import CourseInterface
 
 '''
 Course having cid,cname
 '''
 
 
-class Student(StudentInterface):
+class Course(CourseInterface):
     pass
 
