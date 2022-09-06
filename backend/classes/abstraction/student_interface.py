@@ -4,19 +4,19 @@ class StudentInterface(ABC):
     
     @abstractmethod
     def get_roll(self):
-        return self.roll
+        pass
 
     @abstractmethod
     def set_roll(self,roll):
-        self.roll=roll
+        pass
 
     @abstractmethod
     def get_name(self,name):
-        return self.name
+        pass
 
     @abstractmethod
     def set_name(self):
-        self.name=name
+        pass
 
 
 

@@ -3,22 +3,22 @@ class BranchInterface(ABC):
     
     @abstractmethod
     def get_bid(self):
-        return self.bid
+       pass
         
 
     @abstractmethod
     def set_bid(self,bid):
-        self.bid=bid
+        pass
         
 
     @abstractmethod
     def get_bname(self):
-        return self.bname
+        pass
         
 
     @abstractmethod
     def set_bname(self,bname):
-        self.bname=bname
+        pass
         
 
 
