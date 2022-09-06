@@ -6,5 +6,8 @@ Course having cid,cname
 
 
 class Course(CourseInterface):
-    pass
+    def __init__(self,cid,cname):
+        self.cid=cid
+        self.cname=cname
+        
 

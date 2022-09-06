@@ -3,18 +3,18 @@ class CourseInterface(ABC):
     
     @abstractmethod
     def get_cid(self):
-        pass
+        return self.cid
 
     @abstractmethod
-    def set_cid(self):
-        pass
+    def set_cid(self,cid):
+        self.cid=cid
 
     @abstractmethod
     def get_cname(self):
-        pass
+        return self.cname
 
     @abstractmethod
-    def set_cname(self):
-        pass
+    def set_cname(self,cname):
+        self.cname=cname
 
 

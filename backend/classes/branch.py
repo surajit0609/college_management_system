@@ -6,5 +6,9 @@ Course having bid,bname
 
 
 class Branch(BranchInterface):
-    pass
+    def __init__(self,bid,bname):
+        self.bid=bid
+        self.bname=bname
+       
+    
 

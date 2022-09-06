@@ -1,20 +1,22 @@
 from abc import ABC, abstractmethod
+from unicodedata import name
 class StudentInterface(ABC):
     
     @abstractmethod
     def get_roll(self):
-        pass
+        return self.roll
 
     @abstractmethod
-    def set_roll(self):
-        pass
+    def set_roll(self,roll):
+        self.roll=roll
 
     @abstractmethod
-    def get_name(self):
-        pass
+    def get_name(self,name):
+        return self.name
 
     @abstractmethod
     def set_name(self):
-        pass
+        self.name=name
+
 
 
